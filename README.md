@@ -4,8 +4,8 @@
 - 최근 여름철 폭우 또는 겨울철 폭설로 인한 도로 노면 이상 다수 발생
 - 특히 도로 위 구멍, 포트홀에 의한 타이어 손상 및 급작스러운 조향에 따른 사고 위험
 - **프로젝트 목표 : 이미지나 영상의 도로에서 포트홀을 감지하는 분류 모델, 탐지 모델 생성**
-- 분류모델 : 정상 노면 상태의 도로 이미지와 포트홀이 있는 도로 이미지 분류하기
-- 탐지모델 : 영상에서 포트홀 존재 여부와 위치를 탐지하기
+    - 분류모델 : 정상 노면 상태의 도로 이미지와 포트홀이 있는 도로 이미지 분류하기
+    - 탐지모델 : 영상에서 포트홀 존재 여부와 위치를 탐지하기
 
 　  
    
@@ -67,10 +67,13 @@
 　
  
 
-#### 2. YOLOv4 : 지역화(localization) + 분류(Classification) 동시 수행
-<img width="650" alt="image" src="https://user-images.githubusercontent.com/104143807/212669219-d949c81f-d3a0-4956-bbdc-03c34ffeed59.png">
+#### 2. YOLOv4 : 지역화(localization) + 분류(Classification) 동시 수행  
+##### 1) YOLO의 기본구조  
+**프로젝트에서는 발전된 기법인 YOLO v4 활용**  
 
-**프로젝트에서는 발전된 기법인 YOLO v4 활용**
+<img width="650" alt="image" src="https://user-images.githubusercontent.com/104143807/212677373-b62de2a9-c722-457e-8d35-ff422074f618.png">
+
+
 　
  
 　 
